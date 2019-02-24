@@ -11,7 +11,6 @@ function myFunction() {
      y.className = "nav-left"
 
   }else{
-    y.className = y.className.replace(/\bmystyle\b/g, "");
     y.className = "nav-right"
   }
 }
