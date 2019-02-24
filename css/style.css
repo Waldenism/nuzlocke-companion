@@ -3,7 +3,11 @@ body{
   padding:0;
 }
 
-.introduction{
+h1{
+    margin: 0;
+}
+
+.introduction, .content-container{
   height:100%;
   background: url(../images/intro-background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -14,12 +18,11 @@ body{
 
 .introduction h1{
   position: relative;
-  top: 50%;
+  top: 40%;
   font-size: 64px;
   text-align: center;
   font-family: 'Luckiest Guy', cursive;
   color: white;
-  margin: 0;
 }
 
 .blurb {
@@ -34,7 +37,6 @@ body{
 .navbar {
   overflow: hidden;
   background-color: #333;
-
 }
 
 .navbar a.logo {
@@ -58,8 +60,8 @@ i.fa-bars{
 }
 
 .nav-right{
-float: right;
-display: flex;
+  float: right;
+  display: flex;
 }
 
 .navbar a:hover {
@@ -75,6 +77,39 @@ display: flex;
 .navbar .icon {
   display: none;
 }
+
+.new-nuzlocke-section{
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+}
+
+.new-nuzlocke-section h1{
+  color: black;
+  font-family: 'Luckiest Guy', cursive;
+  text-align: center;
+}
+
+.nuzlocke-form-container{
+  background-color: rgba(51, 51, 51, 0.75);
+  height: 400px;
+}
+
+.nuzlocke-form{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.nuzlocke-form label{
+  color: white;
+  font-size: 18px;
+  padding-top:10px;
+}
+
 
 /*Responsive navigation bar styling*/
 @media screen and (max-width: 600px) {
