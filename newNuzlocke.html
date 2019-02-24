@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <!-- this meta statement I see in most sites it is just indicating that this site is using unicode 'utf-8' character set. the youtube channel computerphile did a great video on it URL here  -->
+    <!-- https://www.youtube.com/watch?v=MijmeoH9LT4 -->
+    <meta charset="utf-8">
+
+    <!-- this is the a really great line of code. It is refered to as 'the meta viewport statment' It will allow this site to be displayed well on any screen size.  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nuzlocke companion</title>
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+
+  <!--Collapseable navigation bar-->
+    <div class="navbar" id="navigation">
+        <a href="index.html" class="logo"><img src="images/logo.png"/></a>
+        <div id="nav-collapse" class="nav-right">
+          <span>&nbsp;</span>
+          <a href="#trainer">Trainer</a>
+          <a href="#rules">Rules</a>
+          <a href="newNuzlocke.html">New Nuzlocke</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+    </div>
+
+      <!--The container for everything after the navbar-->
+      <div class="content-container">
+        <div class="new-nuzlocke-section">
+          <h1>New Nuzlocke</h1>
+          <div class="nuzlocke-form-container">
+              <!--A form which uses optgroup to group the versions into their respective regions-->
+            <form class="nuzlocke-form">
+              <label>Which version are you playing?</label>
+              <select>
+                <optgroup label="Kanto">
+                  <option value="red">Pokemon Red</option>
+                  <option value="blue">Pokemon Blue</option>
+                  <option value="green">Pokemon Green</option>
+                  <option value="yellow">Pokemon Yellow</option>
+                  <option value="firered">Pokemon Fire Red</option>
+                  <option value="leafgreen">Pokemon Leaf Green</option>
+                </optgroup>
+                <optgroup label="Johto">
+                  <option value="gold">Pokemon Gold</option>
+                  <option value="silver">Pokemon Silver</option>
+                  <option value="crystal">Pokemon Crystal</option>
+                  <option value="heartgold">Pokemon Heartgold</option>
+                  <option value="soulsilver">Pokemon Soulsilver</option>
+                </optgroup>
+                <optgroup label="Hoenn">
+                  <option value="ruby">Pokemon Ruby</option>
+                  <option value="sapphire">Pokemon Sapphire</option>
+                  <option value="emerald">Pokemon Emerald</option>
+                  <option value="omegaruby">Pokemon Omega Ruby</option>
+                  <option value="alphasapphire">Pokemon Alpha Sapphire</option>
+                </optgroup>
+                <optgroup label="Sinnoh">
+                  <option value="diamond">Pokemon Diamond</option>
+                  <option value="pearl">Pokemon Pearl</option>
+                  <option value="platinum">Pokemon Platinum</option>
+                </optgroup>
+                <optgroup label="Unova">
+                  <option value="black">Pokemon Black</option>
+                  <option value="white">Pokemon White</option>
+                  <option value="black2">Pokemon Black 2</option>
+                  <option value="white2">Pokemon White 2</option>
+                </optgroup>
+                <optgroup label="Kalos">
+                  <option value="x">Pokemon X</option>
+                  <option value="y">Pokemon Y</option>
+                </optgroup>
+                <optgroup label="Alola">
+                  <option value="sun">Pokemon Sun</option>
+                  <option value="moon">Pokemon Moon</option>
+                  <option value="usun">Pokemon Ultra Sun</option>
+                    <option value="umoon">Pokemon Ultra Moon</option>
+                </optgroup>
+              </select>
+              <label>Character Name:</label>
+              <input type="text" name="name">
+            </form>
+          </div>
+        </div>
+      </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
