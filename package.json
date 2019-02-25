@@ -1,0 +1,26 @@
+{
+  "name": "hillegass-heroes",
+  "version": "1.0.0",
+  "description": "This project is a companion site for nuzlocke pokemon players.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Waldenism/hillegass-heroes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Waldenism/hillegass-heroes/issues"
+  },
+  "homepage": "https://github.com/Waldenism/hillegass-heroes#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "passport": "^0.4.0"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}

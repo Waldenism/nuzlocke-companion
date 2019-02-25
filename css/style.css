@@ -3,6 +3,16 @@ body{
   padding:0;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .introduciton {
+  padding-top: 102px;
+}
+
 .introduction{
   height:100%;
   background: url(../images/intro-background.jpg) no-repeat center center fixed;
@@ -10,6 +20,7 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  padding: 16px
 }
 
 .introduction h1{
@@ -20,10 +31,6 @@ body{
   font-family: 'Luckiest Guy', cursive;
   color: white;
   margin: 0;
-}
-
-.blurb {
-  font-size: 1.5em;
 }
 
 .logo img{
